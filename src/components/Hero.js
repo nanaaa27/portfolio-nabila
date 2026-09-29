@@ -24,7 +24,8 @@ function Hero() {
 
         <div className="hero-btns">
           <a href="https://wa.me/6288971937010" className="btn-primary">→ Hire Me</a>
-          <a href="./public/CV_NABILA(2026).pdf" download="CV_NABILA(2026)" className="btn-outline" id="downloadCvBtn">↓ Download CV</a>
+          <a href="./public/CV_NABILA(2026).pdf" download="CV_NABILA(2026)" target="_blank" 
+  rel="noopener noreferrer" className="btn-outline" id="downloadCvBtn">↓ Download CV</a>
         </div>
       </div>
     </section>
