@@ -66,7 +66,8 @@ function Projects() {
 
         <article
           className="project-card project-overlay reveal-scale reveal-delay-3"
-          style={{ backgroundImage: "url('nabyte-preview.jpg')" }} >
+          style={{ backgroundImage: "url('nabyte-preview.jpg')" }}
+        >
           <div className="project-overlay-content">
             <h3>Nabyte Creative Agency</h3>
             <p>
