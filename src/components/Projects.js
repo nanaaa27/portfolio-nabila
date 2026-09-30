@@ -63,6 +63,33 @@ function Projects() {
             </div>
           </div>
         </article>
+
+        <article
+          className="project-card project-overlay reveal-scale reveal-delay-3"
+          style={{ backgroundImage: "url('nabyte-preview.jpg')" }} >
+          <div className="project-overlay-content">
+            <h3>Nabyte Creative Agency</h3>
+            <p>
+              An elegant, dark-themed user interface designed for a creative agency, featuring flexible layouts and interactive elements. (Work in Progress).
+            </p>
+            <div className="project-overlay-footer">
+              <div className="card-tags">
+                <span>#ReactJS</span>
+                <span>#HTML5</span>
+                <span>#CSS3</span>
+                <span>#UI-Design</span>
+              </div>
+              <a
+                href="https://nanaaa27.github.io/nabyte-creative/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-demo-btn"
+              >
+                Live Demo ↗
+              </a>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   );
